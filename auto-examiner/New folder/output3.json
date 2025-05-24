@@ -1,0 +1,122 @@
+[
+    {
+        "Q": 1,
+        "question": "Explain the process of photosynthesis.",
+        "student_answer": "Photosynthesis is the process by which plants make food using sunlight. It also helps in producing oxygen.",
+        "model_answer": "Photosynthesis is a process in which green plants use sunlight to convert carbon dioxide and water into glucose and oxygen. This process occurs in the chloroplasts of plant cells, primarily in leaves. Chlorophyll, the green pigment in leaves, absorbs light energy, which is used to split water molecules and form ATP and NADPH. Carbon dioxide is then fixed in the Calvin cycle to produce glucose.",
+        "score": 2,
+        "feedback": "The student answer scored a 2 because it only provides a basic and incomplete explanation of photosynthesis, mentioning that plants use sunlight to \"make food\" and produce oxygen, but not explaining the details of how carbon dioxide and water are converted into glucose and oxygen. The model answer, on the other hand, provides a more detailed and accurate description of the process."
+    },
+    {
+        "Q": 2,
+        "question": "Describe Newton\u2019s three laws of motion with examples.",
+        "student_answer": "Newton gave three laws of motion. The first law is about rest and motion. The second law is about force and acceleration. The third law is about action and reaction.",
+        "model_answer": "Newton's first law states that an object will remain at rest or in uniform motion unless acted upon by an external force. The second law states that force equals mass times acceleration (F=ma). The third law states that for every action, there is an equal and opposite reaction. For example, a book on a table remains at rest unless moved, a car accelerates based on engine force, and a rocket moves forward due to gas expulsion in the opposite direction.",
+        "score": 6,
+        "feedback": "The student received a score of 6 because their answer only briefly mentioned the three laws of motion, but lacked detailed explanations and examples to support them. Their response also contained very simplistic statements that did not demonstrate a clear understanding of Newton's laws."
+    },
+    {
+        "Q": 3,
+        "question": "What are the advantages and disadvantages of artificial intelligence?",
+        "student_answer": "AI is good because it helps in many fields like medicine and robots. But sometimes it can cause problems.",
+        "model_answer": "Artificial intelligence (AI) improves efficiency, reduces human errors, and can handle large amounts of data quickly. AI is used in healthcare, finance, and automation. However, AI also has disadvantages, such as job displacement, ethical concerns, and biases in decision-making. AI systems require large datasets and computational power, and their decision-making can sometimes be unpredictable.",
+        "score": 1,
+        "feedback": "This score of 1 indicates that the student's answer lacks depth, clarity, and relevance to the question asked. The student mentions some benefits and drawbacks of AI, but their response is vague and doesn't demonstrate a clear understanding of the topic."
+    },
+    {
+        "Q": 4,
+        "question": "Summarize the water cycle in 50 words.",
+        "student_answer": "The water cycle has many steps. Water from lakes and oceans turns into gas. Then it forms clouds and falls as rain or snow.",
+        "model_answer": "The water cycle includes evaporation, condensation, precipitation, and collection. Water evaporates from oceans, lakes, and rivers, rises into the atmosphere, condenses into clouds, and falls as precipitation in the form of rain or snow. The water then returns to bodies of water or infiltrates into the ground.",
+        "score": 6,
+        "feedback": "This score of 6 was likely given because the student's answer provides a simplified and incomplete explanation of the water cycle, missing key details such as condensation, precipitation, and collection. The student's answer also lacks scientific vocabulary and specificity compared to the model answer."
+    },
+    {
+        "Q": 5,
+        "question": "Explain the greenhouse effect and its impact on climate change.",
+        "student_answer": "Greenhouse gases make the Earth hotter. This causes ice to melt and the weather to change.",
+        "model_answer": "The greenhouse effect is caused by greenhouse gases like carbon dioxide and methane trapping heat in the Earth's atmosphere. This leads to global warming, causing rising temperatures, melting ice caps, and extreme weather patterns. Human activities like burning fossil fuels increase greenhouse gases, worsening climate change.",
+        "score": 2,
+        "feedback": "This score of 2 was likely given because the student answer lacks specific details about the greenhouse effect, relying on a more general statement that while it captures the essence of the issue. The model answer provides a clearer and more detailed explanation of the greenhouse effect and its impact on climate change, which is why it received a higher score."
+    },
+    {
+        "Q": 6,
+        "question": "What is the capital of France?",
+        "student_answer": "London",
+        "model_answer": "Paris",
+        "score": 0,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 7,
+        "question": "Which gas do humans breathe in for survival?",
+        "student_answer": "Carbon dioxide",
+        "model_answer": "Oxygen",
+        "score": 0,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 8,
+        "question": "Name the largest planet in our solar system.",
+        "student_answer": "Saturn",
+        "model_answer": "Jupiter",
+        "score": 0,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 9,
+        "question": "What is the chemical symbol for water?",
+        "student_answer": "HO2",
+        "model_answer": "H2O",
+        "score": 0,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 10,
+        "question": "Which metal is liquid at room temperature?",
+        "student_answer": "Iron",
+        "model_answer": "Mercury",
+        "score": 0,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 11,
+        "question": "Briefly describe the importance of the ozone layer.",
+        "student_answer": "The ozone layer protects us from the Sun.",
+        "model_answer": "The ozone layer protects Earth from harmful ultraviolet (UV) radiation from the Sun. It absorbs most of the Sun\u2019s UV rays, preventing damage to human health and the environment. A weakened ozone layer increases the risk of skin cancer and harms ecosystems.",
+        "score": 2,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 12,
+        "question": "What are renewable energy sources?",
+        "student_answer": "Energy that never ends, like the sun.",
+        "model_answer": "Renewable energy sources are those that can be replenished naturally, such as solar, wind, hydro, and geothermal energy. These sources do not deplete over time and are environmentally friendly alternatives to fossil fuels.",
+        "score": 2,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 13,
+        "question": "State the purpose of mitochondria in a cell.",
+        "student_answer": "Mitochondria give energy.",
+        "model_answer": "Mitochondria are the powerhouse of the cell. They generate ATP, the cell\u2019s main energy source, through cellular respiration by breaking down glucose and oxygen.",
+        "score": 2,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 14,
+        "question": "What happens when you mix vinegar and baking soda?",
+        "student_answer": "It makes bubbles.",
+        "model_answer": "When vinegar (acetic acid) and baking soda (sodium bicarbonate) mix, they react to form carbon dioxide gas, water, and sodium acetate. The reaction produces fizzing and bubbles.",
+        "score": 1,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 15,
+        "question": "Why do objects fall to the ground when dropped?",
+        "student_answer": "Because gravity pulls them.",
+        "model_answer": "Objects fall to the ground due to gravity, the force that attracts objects towards the center of the Earth. The acceleration due to gravity on Earth is approximately 9.8 m/s\u00b2.",
+        "score": 1,
+        "feedback": "Short answers are graded using keyword matching only."
+    }
+]

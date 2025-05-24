@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grading Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .results-container {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .result-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .feedback {
+            font-style: italic;
+            color: #555;
+        }
+        .high-score { color: green; font-weight: bold; }
+        .low-score { color: red; font-weight: bold; }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+        .chat-container {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .chat-box {
+            width: 100%;
+            height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: white;
+        }
+        .chat-input {
+            width: 80%;
+            padding: 10px;
+        }
+        .chat-btn {
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .chat-message {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+
+        .user-message {
+            justify-content: flex-start;
+        }
+
+        .llama-message {
+            justify-content: flex-end;
+        }
+
+        .message-bubble {
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 70%;
+        }
+
+        .user-bubble {
+            background-color: #d1e7dd;  /* Light green */
+            color: #000;
+            text-align: left;
+        }
+
+        .llama-bubble {
+            background-color: #cfe2ff;  /* Light blue */
+            color: #000;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exam Grading Results</h1>
+        <p>Here are the results of the AI-graded exam.</p>
+
+        <div class="results-container">
+            {% for result in results %}
+                <div class="result-item">
+                    <strong>Q{{ result.Q }}: {{ result.question }}</strong> <br>
+                    <span>Student Answer: {{ result.student_answer }}</span> <br>
+                    <span>Expected Answer: {{ result.model_answer }}</span> <br>
+                    <strong class="{% if result.score >= 7 %}high-score{% else %}low-score{% endif %}">
+                        Score: {{ result.score }}/{{ result.allotted_marks }}
+                    </strong> <br>
+                    <span class="feedback">Feedback: {{ result.feedback }}</span>
+                </div>
+            {% endfor %}
+        </div>
+
+        <a class="download-btn" href="{{ url_for('download_results') }}">📥 Download Results</a>
+        <br><br>
+        <a href="/">Upload Another Exam</a>
+        
+        <div class="chat-container">
+            <h2>Chat with Llama for More Insights</h2>
+            <h3>Use keywords "score", "marks", "exam", "feedback", "grading", "answer", "evaluation" for grading doubts</h3>
+            <div class="chat-box" id="chat-box"></div>
+            <input type="text" id="chat-input" class="chat-input" placeholder="Ask about your grading...">
+            <button class="chat-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            let inputField = document.getElementById("chat-input");
+            let message = inputField.value;
+            if (!message) return;
+    
+            let chatBox = document.getElementById("chat-box");
+    
+            // User message (Left)
+            let userMessage = `<div class="chat-message user-message">
+                <div class="message-bubble user-bubble"><strong>You:</strong> ${message}</div>
+            </div>`;
+            chatBox.innerHTML += userMessage;
+    
+            // Llama "thinking..." message (Right)
+            let loadingMessage = `<div class="chat-message llama-message" id="loading">
+                <div class="message-bubble llama-bubble"><em>🤖 Llama is thinking<span id='dots'>.</span></em></div>
+            </div>`;
+            chatBox.innerHTML += loadingMessage;
+            chatBox.scrollTop = chatBox.scrollHeight;
+    
+            // Animate loading dots
+            let dots = document.getElementById("dots");
+            let dotCount = 1;
+            let loadingAnimation = setInterval(() => {
+                dots.innerHTML = ".".repeat(dotCount);
+                dotCount = (dotCount % 3) + 1;
+            }, 500);
+    
+            inputField.value = "";
+    
+            fetch("/chatbot", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: message })
+            })
+            .then(response => response.json())
+            .then(data => {
+                clearInterval(loadingAnimation);
+                document.getElementById("loading").remove(); // Remove loading text
+    
+                // Llama's response (Right)
+                let llamaResponse = `<div class="chat-message llama-message">
+                    <div class="message-bubble llama-bubble"><strong>Llama:</strong> ${data.response}</div>
+                </div>`;
+                chatBox.innerHTML += llamaResponse;
+                chatBox.scrollTop = chatBox.scrollHeight;
+            })
+            .catch(error => {
+                clearInterval(loadingAnimation);
+                document.getElementById("loading").innerHTML = "<em style='color: red;'>⚠️ Error: Could not get a response.</em>";
+            });
+        }
+    </script>
+    
+    
+</body>
+</html>
