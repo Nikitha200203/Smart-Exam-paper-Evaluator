@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automated Exam Grading System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function showPreview(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var output = document.getElementById("image-preview");
+                output.src = reader.result;
+                output.style.display = "block";
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+
+        function startProcessing() {
+            document.getElementById("progress-container").style.display = "block";
+            let progressBar = document.getElementById("progress-bar");
+            let width = 0;
+            let interval = setInterval(function() {
+                if (width >= 100) {
+                    clearInterval(interval);
+                } else {
+                    width += 5;
+                    progressBar.style.width = width + "%";
+                    progressBar.innerHTML = width + "%";
+                }
+            }, 500);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Automated Exam Grading System</h1>
+
+        <!-- Upload Exam Image (OCR Processing) -->
+        <div class="upload-section">
+            <h2>Upload Exam Answer Sheet</h2>
+            <form action="/upload_image" method="POST" enctype="multipart/form-data" onsubmit="startProcessing()">
+                <input type="file" name="image" accept="image/*" onchange="showPreview(event)" required>
+                <br>
+                <img id="image-preview" src="" style="display:none; max-width: 200px; margin-top: 10px;">
+                <br>
+                <button type="submit">Extract Text (OCR)</button>
+            </form>
+        </div>
+
+        <!-- Progress Bar -->
+        <div id="progress-container" class="progress-container" style="display: none;">
+            <div id="progress-bar" class="progress-bar">0%</div>
+        </div>
+
+        <!-- Upload JSON (Grading Processing) -->
+        <div class="upload-section">
+            <h2>Upload JSON for Grading</h2>
+            <form action="/upload_json" method="POST" enctype="multipart/form-data" onsubmit="startProcessing()">
+                <input type="file" name="json_file" accept=".json" required>
+                <br>
+                <button type="submit">Grade Answers</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

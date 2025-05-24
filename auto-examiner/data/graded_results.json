@@ -1,0 +1,137 @@
+[
+    {
+        "Q": 1,
+        "question": "What is the capital of France?",
+        "student_answer": "The capital of France is Bengaluru.",
+        "model_answer": "The capital of France is Paris.",
+        "allotted_marks": 1,
+        "score": 0,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 2,
+        "question": "What is the largest planet in our solar system?",
+        "student_answer": "The largest planet in our solar system is Jupiter.",
+        "model_answer": "The largest planet in our solar system is Jupiter.",
+        "allotted_marks": 1,
+        "score": 1,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 3,
+        "question": "What is the chemical symbol for water?",
+        "student_answer": "The chemical symbol for water is H\u2082O.",
+        "model_answer": "The chemical symbol for water is H\u2082O.",
+        "allotted_marks": 1,
+        "score": 1,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 4,
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "student_answer": "The play 'Romeo and Juliet' was written by William Shakespeare.",
+        "model_answer": "The play 'Romeo and Juliet' was written by William Shakespeare.",
+        "allotted_marks": 1,
+        "score": 1,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 5,
+        "question": "What is the smallest unit of matter?",
+        "student_answer": "The smallest unit of matter is an atom.",
+        "model_answer": "The smallest unit of matter is an atom.",
+        "allotted_marks": 1,
+        "score": 1,
+        "feedback": "One-word answers are strictly graded for exact matches."
+    },
+    {
+        "Q": 6,
+        "question": "What is gravity?",
+        "student_answer": "Gravity is the force that pulls objects towards the Earth.",
+        "model_answer": "Gravity is the force that attracts objects towards the center of the Earth or any other physical body having mass.",
+        "allotted_marks": 5,
+        "score": 5,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 7,
+        "question": "What is the water cycle?",
+        "student_answer": "The water cycle is when water moves through the air, land, and oceans.",
+        "model_answer": "The water cycle is the continuous process by which water moves through the atmosphere, oceans, and land, including evaporation, condensation, and precipitation.",
+        "allotted_marks": 5,
+        "score": 5,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 8,
+        "question": "What is the capital of the United States?",
+        "student_answer": "Washington, D.C.",
+        "model_answer": "The capital of the United States is Washington, D.C.",
+        "allotted_marks": 5,
+        "score": 6,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 9,
+        "question": "What is the main function of the heart?",
+        "student_answer": "The main function of the heart is to pump blood throughout the body, delivering oxygen and nutrients to cells.",
+        "model_answer": "The heart pumps blood to deliver oxygen and nutrients to the body.",
+        "allotted_marks": 5,
+        "score": 8,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 10,
+        "question": "What is photosynthesis?",
+        "student_answer": "Photosynthesis is when plants make food using sunlight and release oxygen.",
+        "model_answer": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing glucose and oxygen from carbon dioxide and water.",
+        "allotted_marks": 5,
+        "score": 3,
+        "feedback": "Short answers are graded using keyword matching only."
+    },
+    {
+        "Q": 11,
+        "question": "Explain the process of photosynthesis in detail.",
+        "student_answer": "Photosynthesis is when plants use sunlight to make food. They take in carbon dioxide and water, and with the help of sunlight, turn them into glucose and oxygen. This happens in the chloroplasts of plant cells. There are two parts: the light-dependent part and the Calvin cycle. In the first part, light is absorbed by chlorophyll and it splits water into oxygen. In the second part, plants use the energy to make glucose from carbon dioxide.",
+        "model_answer": "Photosynthesis is a biochemical process used by plants, algae, and certain bacteria to convert light energy into chemical energy stored in glucose. It occurs mainly in the chloroplasts of plant cells, where chlorophyll absorbs light energy, typically from the sun. The process consists of two main stages: the light-dependent reactions and the light-independent reactions (Calvin cycle). In the light-dependent reactions, sunlight is absorbed by chlorophyll, which splits water molecules into oxygen, protons, and electrons, generating ATP and NADPH. In the Calvin cycle, ATP and NADPH are used to convert carbon dioxide from the atmosphere into glucose, which provides energy for the plant's growth and development. The overall equation for photosynthesis is: 6CO\u2082 + 6H\u2082O + light energy \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082.",
+        "allotted_marks": 10,
+        "score": 6,
+        "feedback": "The student answer received a score of 6 because it correctly identified the basic process of photosynthesis, including the role of sunlight and chloroplasts, but lacked detailed explanation and specific terminology, such as the light-dependent reactions and Calvin cycle. Additionally, the student's answer was more concise and straightforward, but lacked the level of complexity and scientific accuracy expected for a model answer."
+    },
+    {
+        "Q": 12,
+        "question": "Describe the role of the heart in the circulatory system.",
+        "student_answer": "The heart is the main pump in the circulatory system. It has four chambers: two atria and two ventricles. Blood without oxygen enters the right atrium, moves to the right ventricle, and goes to the lungs to get oxygen. Oxygen-rich blood comes back to the left atrium, moves to the left ventricle, and is pumped throughout the body. This helps transport oxygen and nutrients while also removing waste like carbon dioxide.",
+        "model_answer": "The heart is the central organ in the circulatory system, responsible for pumping blood throughout the body. It consists of four chambers: two atria (upper chambers) and two ventricles (lower chambers). Oxygen-poor blood from the body enters the right atrium, is pumped into the right ventricle, and then sent to the lungs for oxygenation. Oxygen-rich blood from the lungs enters the left atrium, moves into the left ventricle, and is pumped out through the aorta to the rest of the body. This continuous circulation allows for the delivery of oxygen and nutrients to tissues and the removal of waste products, such as carbon dioxide, from the body. The heart's rhythmic contractions, regulated by electrical signals, maintain this vital process.",
+        "allotted_marks": 10,
+        "score": 7,
+        "feedback": "This score of 7 indicates that the student's answer demonstrated a good understanding of the heart's role in the circulatory system, but lacked some detail and clarity. The model answer provided more thorough information about the specific functions of each chamber and how they contribute to the overall process of blood circulation."
+    },
+    {
+        "Q": 13,
+        "question": "What are the causes and effects of climate change?",
+        "student_answer": "Climate change is mainly caused by human activities like burning fossil fuels, deforestation.",
+        "model_answer": "Climate change is primarily caused by human activities that increase the concentration of greenhouse gases in the atmosphere, particularly carbon dioxide (CO\u2082), methane (CH\u2084), and nitrous oxide (N\u2082O). These gases trap heat from the sun, leading to a rise in global temperatures, a phenomenon known as global warming. Major contributors to climate change include the burning of fossil fuels (coal, oil, natural gas) for energy, deforestation, and industrial processes. The effects of climate change are widespread and include rising sea levels due to melting polar ice caps, more frequent and severe weather events (such as hurricanes, droughts, and heatwaves), disruptions to ecosystems, and threats to biodiversity. Additionally, it poses risks to agriculture, human health, and the global economy.",
+        "allotted_marks": 10,
+        "score": 1,
+        "feedback": "This score of 1 was likely given because the student answer only briefly mentions two causes (burning fossil fuels and deforestation) without elaborating on their impact or providing any information about the effects of climate change, which is a key part of the question. The model answer, in contrast, provides a more comprehensive explanation of both the causes and effects of climate change."
+    },
+    {
+        "Q": 14,
+        "question": "Explain the theory of evolution by natural selection.",
+        "student_answer": "Charles Darwin's theory of evolution by natural selection says that animals with traits that help them survive in their environment are more likely to live and have babies. These traits are passed to the next generation. Over time, helpful traits become common, and harmful traits disappear. This process explains how species change and adapt.",
+        "model_answer": "The theory of evolution by natural selection, first proposed by Charles Darwin, explains how species evolve and adapt over time through the differential survival and reproduction of organisms with advantageous traits. In any given environment, organisms exhibit variation in traits, such as size, color, or behavior. These traits are often inherited by offspring. Those with traits that better suit their environment are more likely to survive, reproduce, and pass these traits on to the next generation. Over time, this process leads to the gradual accumulation of beneficial traits in the population, while less advantageous traits become less common. Natural selection is one of the key mechanisms of evolution, driving the diversity of life on Earth.",
+        "allotted_marks": 10,
+        "score": 6,
+        "feedback": "The student answer received a score of 6 because it correctly summarizes the main points of Charles Darwin's theory of evolution by natural selection, including the role of advantageous traits in survival and reproduction, the passing on of traits to subsequent generations, and the adaptation of species over time. However, the language is simplistic and lacks specific details about the process, resulting in a score that indicates a basic understanding but requires further elaboration."
+    },
+    {
+        "Q": 15,
+        "question": "What is the significance of the Industrial Revolution in shaping modern society?",
+        "student_answer": "The Industrial Revolution, which began in the late 18th century, marked a major turning point in human history by transforming economies from agrarian-based to industrialized ones. It was characterized by the development of new machinery, the use of steam power, and the establishment of factories. This revolution led to significant advancements in manufacturing, transportation, and communication. The rise of factories facilitated mass production, leading to urbanization as people moved to cities in search of work. However, it also brought about social challenges, such as poor working conditions, child labor, and environmental pollution. The Industrial Revolution was instrumental in shaping modern economies, fostering technological innovations, and influencing social, political, and cultural changes that continue to impact society today.",
+        "model_answer": "The Industrial Revolution started in the late 1700s and changed economies from farming to industry. It introduced new machines, steam power, and factories. It led to mass production, urbanization, and advancements in transport and communication. However, it also caused poor working conditions, child labor, and pollution. This period shaped modern society and economies.",
+        "allotted_marks": 10,
+        "score": 7,
+        "feedback": "This score of 7 was likely given because the student answer demonstrates a good understanding of the Industrial Revolution's significance, including its transformative effects on economies and societies. However, it does not provide much depth or analysis, lacking specific examples or evidence to support its claims, which may have prevented the score from being higher."
+    }
+]

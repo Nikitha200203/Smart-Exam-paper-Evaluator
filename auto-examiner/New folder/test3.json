@@ -1,0 +1,122 @@
+[
+    {
+        "Q": 1,
+        "question": "Explain the process of photosynthesis.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10,
+        "model_answer": "Photosynthesis is a process in which green plants use sunlight to convert carbon dioxide and water into glucose and oxygen. This process occurs in the chloroplasts of plant cells, primarily in leaves. Chlorophyll, the green pigment in leaves, absorbs light energy, which is used to split water molecules and form ATP and NADPH. Carbon dioxide is then fixed in the Calvin cycle to produce glucose.",
+        "student_answer": "Photosynthesis is the process by which plants make food using sunlight. It also helps in producing oxygen."
+    },
+    {
+        "Q": 2,
+        "question": "Describe Newton’s three laws of motion with examples.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10,
+        "model_answer": "Newton's first law states that an object will remain at rest or in uniform motion unless acted upon by an external force. The second law states that force equals mass times acceleration (F=ma). The third law states that for every action, there is an equal and opposite reaction. For example, a book on a table remains at rest unless moved, a car accelerates based on engine force, and a rocket moves forward due to gas expulsion in the opposite direction.",
+        "student_answer": "Newton gave three laws of motion. The first law is about rest and motion. The second law is about force and acceleration. The third law is about action and reaction."
+    },
+    {
+        "Q": 3,
+        "question": "What are the advantages and disadvantages of artificial intelligence?",
+        "question_type": "brief_answer",
+        "allotted_marks": 10,
+        "model_answer": "Artificial intelligence (AI) improves efficiency, reduces human errors, and can handle large amounts of data quickly. AI is used in healthcare, finance, and automation. However, AI also has disadvantages, such as job displacement, ethical concerns, and biases in decision-making. AI systems require large datasets and computational power, and their decision-making can sometimes be unpredictable.",
+        "student_answer": "AI is good because it helps in many fields like medicine and robots. But sometimes it can cause problems."
+    },
+    {
+        "Q": 4,
+        "question": "Summarize the water cycle in 50 words.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10,
+        "model_answer": "The water cycle includes evaporation, condensation, precipitation, and collection. Water evaporates from oceans, lakes, and rivers, rises into the atmosphere, condenses into clouds, and falls as precipitation in the form of rain or snow. The water then returns to bodies of water or infiltrates into the ground.",
+        "student_answer": "The water cycle has many steps. Water from lakes and oceans turns into gas. Then it forms clouds and falls as rain or snow."
+    },
+    {
+        "Q": 5,
+        "question": "Explain the greenhouse effect and its impact on climate change.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10,
+        "model_answer": "The greenhouse effect is caused by greenhouse gases like carbon dioxide and methane trapping heat in the Earth's atmosphere. This leads to global warming, causing rising temperatures, melting ice caps, and extreme weather patterns. Human activities like burning fossil fuels increase greenhouse gases, worsening climate change.",
+        "student_answer": "Greenhouse gases make the Earth hotter. This causes ice to melt and the weather to change."
+    },
+    {
+        "Q": 6,
+        "question": "What is the capital of France?",
+        "question_type": "one_word",
+        "allotted_marks": 1,
+        "model_answer": "Paris",
+        "student_answer": "London"
+    },
+    {
+        "Q": 7,
+        "question": "Which gas do humans breathe in for survival?",
+        "question_type": "one_word",
+        "allotted_marks": 1,
+        "model_answer": "Oxygen",
+        "student_answer": "Carbon dioxide"
+    },
+    {
+        "Q": 8,
+        "question": "Name the largest planet in our solar system.",
+        "question_type": "one_word",
+        "allotted_marks": 1,
+        "model_answer": "Jupiter",
+        "student_answer": "Saturn"
+    },
+    {
+        "Q": 9,
+        "question": "What is the chemical symbol for water?",
+        "question_type": "one_word",
+        "allotted_marks": 1,
+        "model_answer": "H2O",
+        "student_answer": "HO2"
+    },
+    {
+        "Q": 10,
+        "question": "Which metal is liquid at room temperature?",
+        "question_type": "one_word",
+        "allotted_marks": 1,
+        "model_answer": "Mercury",
+        "student_answer": "Iron"
+    },
+    {
+        "Q": 11,
+        "question": "Briefly describe the importance of the ozone layer.",
+        "question_type": "short_answer",
+        "allotted_marks": 5,
+        "model_answer": "The ozone layer protects Earth from harmful ultraviolet (UV) radiation from the Sun. It absorbs most of the Sun’s UV rays, preventing damage to human health and the environment. A weakened ozone layer increases the risk of skin cancer and harms ecosystems.",
+        "student_answer": "The ozone layer protects us from the Sun."
+    },
+    {
+        "Q": 12,
+        "question": "What are renewable energy sources?",
+        "question_type": "short_answer",
+        "allotted_marks": 5,
+        "model_answer": "Renewable energy sources are those that can be replenished naturally, such as solar, wind, hydro, and geothermal energy. These sources do not deplete over time and are environmentally friendly alternatives to fossil fuels.",
+        "student_answer": "Energy that never ends, like the sun."
+    },
+    {
+        "Q": 13,
+        "question": "State the purpose of mitochondria in a cell.",
+        "question_type": "short_answer",
+        "allotted_marks": 5,
+        "model_answer": "Mitochondria are the powerhouse of the cell. They generate ATP, the cell’s main energy source, through cellular respiration by breaking down glucose and oxygen.",
+        "student_answer": "Mitochondria give energy."
+    },
+    {
+        "Q": 14,
+        "question": "What happens when you mix vinegar and baking soda?",
+        "question_type": "short_answer",
+        "allotted_marks": 5,
+        "model_answer": "When vinegar (acetic acid) and baking soda (sodium bicarbonate) mix, they react to form carbon dioxide gas, water, and sodium acetate. The reaction produces fizzing and bubbles.",
+        "student_answer": "It makes bubbles."
+    },
+    {
+        "Q": 15,
+        "question": "Why do objects fall to the ground when dropped?",
+        "question_type": "short_answer",
+        "allotted_marks": 5,
+        "model_answer": "Objects fall to the ground due to gravity, the force that attracts objects towards the center of the Earth. The acceleration due to gravity on Earth is approximately 9.8 m/s².",
+        "student_answer": "Because gravity pulls them."
+    }
+]

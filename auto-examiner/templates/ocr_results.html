@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .results-container {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .result-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>OCR Results</h1>
+        <p>Extracted Text:</p>
+
+        <div class="results-container">
+            <div class="result-item">
+                <pre>{{ results.extracted_text }}</pre>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <a class="download-btn" href="{{ url_for('download_json', filename=json_file) }}">📥 Download JSON</a>
+        <br><br>
+        <a href="/">Upload Another Image</a>
+    </div>
+</body>
+</html>

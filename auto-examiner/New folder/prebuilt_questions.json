@@ -1,0 +1,37 @@
+[
+    {
+        "Q": 1,
+        "question": "What is the capital of Italy?",
+        "model_answer": "Rome is the capital of Italy.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10
+    },
+    {
+        "Q": 2,
+        "question": "Define photosynthesis.",
+        "model_answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10
+    },
+    {
+        "Q": 3,
+        "question": "What are the three states of matter?",
+        "model_answer": "The three states of matter are solid, liquid, and gas.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10
+    },
+    {
+        "Q": 4,
+        "question": "Who wrote the play \"Hamlet\"?",
+        "model_answer": "William Shakespeare wrote the play \"Hamlet\".",
+        "question_type": "brief_answer",
+        "allotted_marks": 10
+    },
+    {
+        "Q": 5,
+        "question": "What is the largest planet in our solar system?",
+        "model_answer": "Jupiter is the largest planet in our solar system.",
+        "question_type": "brief_answer",
+        "allotted_marks": 10
+    }
+]

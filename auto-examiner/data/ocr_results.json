@@ -1,0 +1,34 @@
+[
+    {
+        "Q": "1",
+        "question": "Who Wrote the play 'Hamlet?",
+        "student_answer": "William Shakespeare",
+        "model_answer":"William Shakespeare",
+        "allotted_marks":1,
+        "question_type":"one_word"
+    },
+    {
+        "Q": "2",
+        "question": "What is the largest planet in our solar system?",
+        "student_answer": "Jupiter the largest in Our Solar",
+        "model_answer":"jupiter",
+        "allotted_marks":1,
+        "question_type":"one_word"
+    },
+    {
+        "Q": "3",
+        "question": "What is the chemical symbol for gold?",
+        "student_answer": "Au: Qz",
+        "model_answer":"au",
+        "allotted_marks":1,
+        "question_type":"one_word"
+    },
+    {
+        "Q": "4",
+        "question": "What is the square root of 144?",
+        "student_answer": "The square root of 144 i5 12",
+        "model_answer":"12",
+        "allotted_marks":1,
+        "question_type":"one_word"
+    }
+]
